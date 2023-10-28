@@ -1,0 +1,17 @@
+163 WebSocket 115    WebSocket Text [FIN] [MASKED]
+164 TCP      76     3000 → 54306 [ACK] Seq=281 Ack=636 Win=407104 Len=0 TSval=2664885863 TSecr=3407095423
+165 WebSocket 118    WebSocket Text [FIN] 
+166 TCP      76     54306 → 3000 [ACK] Seq=636 Ack=323 Win=407424 Len=0 TSval=3407095424 TSecr=2664885864
+167 WebSocket 118    WebSocket Text [FIN] 
+168 TCP      76     54309 → 3000 [ACK] Seq=590 Ack=250 Win=407488 Len=0 TSval=3725757304 TSecr=3709894829
+169 WebSocket 118    WebSocket Text [FIN] 
+170 TCP      76     54311 → 3000 [ACK] Seq=590 Ack=180 Win=407616 Len=0 TSval=3258350699 TSecr=639265434
+
+163 user1 (port 54306) sent message "hello from 1" to server (port 3000) via WebSocket
+164 server (port 3000) sends [ACK] to client of user1 (port 54306) via TCP
+165 server (port 3000) sent message "hello from 1" to user1 (port 54306) via WebSocket
+166 client of user1 (port 54306) sends [ACK] to server (port 3000) via TCP
+167 server (port 3000) sent message "hello from 1" to user2 (port 54309) via WebSocket
+168 client of user2 (port 54309) sends [ACK] to server (port 3000) via TCP
+169 server (port 3000) sent message "hello from 1" to user3 (port 54311) via WebSocket
+170 client of user3 (port 543011) sends [ACK] to server (port 3000) via TCP

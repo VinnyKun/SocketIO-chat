@@ -1,0 +1,13 @@
+q2.
+tcp port 3000
+
+q4.
+Port: 54306
+Port: 54309
+Port: 54311
+
+q5.
+Hypertext Transfer Protocol
+
+q6.
+WebSocket
